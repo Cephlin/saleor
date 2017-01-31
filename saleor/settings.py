@@ -366,4 +366,4 @@ GRAPHENE = {
 }
 
 
-VATLAYER_ACCESS_KEY = os.environ.get('VATLAYER_ACCESS_KEY', '')
+VATLAYER_ACCESS_KEY = os.environ.get('VATLAYER_ACCESS_KEY', None)
