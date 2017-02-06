@@ -29,4 +29,5 @@ def search_enabled(request):
 
 
 def country_form(request):
-    return {'country_form': CountryForm(initial={'country': request.country})}
+    return {'request_country_form': CountryForm(
+        initial={'country': request.country})}
